@@ -10,7 +10,7 @@ export default function App() {
 
   return (
     <SafeAreaView>
-      <Text>App</Text>
+      <Text>Ap</Text>
     </SafeAreaView>
   );
 }
