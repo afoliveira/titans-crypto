@@ -12,8 +12,12 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4E4B32B6BF0C48A5B3621948 /* NeueMontreal-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 13A887EFACE14A4D8D1343DF /* NeueMontreal-Regular.otf */; };
 		7699B88040F8A987B510C191 /* libPods-titansCrypto-titansCryptoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-titansCrypto-titansCryptoTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A941DD718DAB4B60906381A2 /* NeueMontreal-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA27FB377B324F69AB543BDD /* NeueMontreal-Bold.otf */; };
+		DC9001648B7D4D38A7E9B18F /* NeueMontreal-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 11670E091E5C47FD9B38BB35 /* NeueMontreal-Light.otf */; };
+		F5411F57867842BAA301E00F /* NeueMontreal-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB037538104B2997A1B7B2 /* NeueMontreal-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +34,9 @@
 		00E356EE1AD99517003FC87E /* titansCryptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = titansCryptoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* titansCryptoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = titansCryptoTests.m; sourceTree = "<group>"; };
+		0EEB037538104B2997A1B7B2 /* NeueMontreal-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeueMontreal-Medium.otf"; path = "../src/assets/fonts/NeueMontreal-Medium.otf"; sourceTree = "<group>"; };
+		11670E091E5C47FD9B38BB35 /* NeueMontreal-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeueMontreal-Light.otf"; path = "../src/assets/fonts/NeueMontreal-Light.otf"; sourceTree = "<group>"; };
+		13A887EFACE14A4D8D1343DF /* NeueMontreal-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeueMontreal-Regular.otf"; path = "../src/assets/fonts/NeueMontreal-Regular.otf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* titansCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = titansCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = titansCrypto/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = titansCrypto/AppDelegate.mm; sourceTree = "<group>"; };
@@ -44,6 +51,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = titansCrypto/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-titansCrypto-titansCryptoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-titansCrypto-titansCryptoTests.release.xcconfig"; path = "Target Support Files/Pods-titansCrypto-titansCryptoTests/Pods-titansCrypto-titansCryptoTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FA27FB377B324F69AB543BDD /* NeueMontreal-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NeueMontreal-Bold.otf"; path = "../src/assets/fonts/NeueMontreal-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				ACE88C12254748E3BBF0F43E /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -135,6 +144,18 @@
 				00E356EE1AD99517003FC87E /* titansCryptoTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE88C12254748E3BBF0F43E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA27FB377B324F69AB543BDD /* NeueMontreal-Bold.otf */,
+				11670E091E5C47FD9B38BB35 /* NeueMontreal-Light.otf */,
+				0EEB037538104B2997A1B7B2 /* NeueMontreal-Medium.otf */,
+				13A887EFACE14A4D8D1343DF /* NeueMontreal-Regular.otf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -244,6 +265,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A941DD718DAB4B60906381A2 /* NeueMontreal-Bold.otf in Resources */,
+				DC9001648B7D4D38A7E9B18F /* NeueMontreal-Light.otf in Resources */,
+				F5411F57867842BAA301E00F /* NeueMontreal-Medium.otf in Resources */,
+				4E4B32B6BF0C48A5B3621948 /* NeueMontreal-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

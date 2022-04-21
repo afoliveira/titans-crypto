@@ -1,7 +1,12 @@
 import React, {useEffect} from 'react';
-import SplashScreen from 'react-native-splash-screen';
-
 import {Text, SafeAreaView} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+
+import SplashScreen from 'react-native-splash-screen';
+import OnboardScreen from './screens/OnboardScreen';
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
   useEffect(() => {
@@ -9,8 +14,14 @@ export default function App() {
   });
 
   return (
-    <SafeAreaView>
-      <Text>App2</Text>
-    </SafeAreaView>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen
+          options={{headerShown: false}}
+          name="Onboarding"
+          component={OnboardScreen}
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
